@@ -4,17 +4,6 @@
 
 This project demonstrates how to compute SHA-256 hashes for a list of strings using both **sequential** and **parallel** approaches in C++. It uses the OpenSSL library for hashing and OpenMP for parallelization.
 
-## 📁 Project Structure
-
-sha256_project/
-│
-├── src/
-│ ├── sha256_seq.cpp # Sequential SHA-256 implementation
-│ └── sha256_openmp.cpp # Parallel SHA-256 using OpenMP
-│
-└── data/
-└── input.txt # Input file containing strings (one per line)
-
 ## ⚙️ Prerequisites
 
 - A C++ compiler with OpenMP support (`g++`, `clang++`, etc.)
